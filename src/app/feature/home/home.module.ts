@@ -1,3 +1,4 @@
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -11,7 +12,8 @@ import { HomeRoutingModule } from './home-routing.module';
   ],
   imports: [
     BrowserModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [HomeComponent]
